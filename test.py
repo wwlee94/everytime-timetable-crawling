@@ -13,8 +13,8 @@ driver.get('https://everytime.kr/login')
 driver.implicitly_wait(5)
 
 # 아이디/비밀번호를 입력해준다.
-driver.find_element_by_name('userid').send_keys('mickey2s')
-driver.find_element_by_name('password').send_keys('gjlee7257')
+driver.find_element_by_name('userid').send_keys('*****')
+driver.find_element_by_name('password').send_keys('*****')
 
 # 로그인 버튼을 눌러주자.
 driver.find_element_by_xpath('//*[@id="container"]/form/p[3]/input').click()
