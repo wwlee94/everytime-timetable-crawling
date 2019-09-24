@@ -9,7 +9,7 @@ driver = webdriver.Chrome(executable_path=r'./chromedriver')
 
 # url에 접근한다.
 driver.get('https://everytime.kr/login')
-# 암묵적으로 웹 자원 로드를 위해 3초까지 기다려 준다.
+# 암묵적으로 웹 자원 로드를 위해 5초까지 기다려 준다.
 driver.implicitly_wait(5)
 
 # 아이디/비밀번호를 입력해준다.
